@@ -29,11 +29,9 @@ import java.util.List;
 public class AdminController {
 
 
-    private final AdminService adminService;
+    private  final    AdminService adminService;
 
-    private final JwtCreate jwtCreate;
-
-
+    private final  JwtCreate jwtCreate;
     /**
      * 登录
      * @param adminLoginDto 登陆的信息
